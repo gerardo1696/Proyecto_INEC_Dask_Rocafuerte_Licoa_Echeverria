@@ -1,12 +1,15 @@
-pandas
+# Entorno utilizado: Python 3.12.13
+
+pandas==2.2.2
+pyarrow==18.1.0
+dask[distributed]==2026.7.0
+
 numpy
 matplotlib
 psutil
-pyarrow
 pyreadstat
 requests
 beautifulsoup4
-dask[distributed]
 bokeh
 graphviz
 python-docx
