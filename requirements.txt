@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+psutil
+pyarrow
+pyreadstat
+requests
+beautifulsoup4
+dask[distributed]
+bokeh
+graphviz
+python-docx
+reportlab
