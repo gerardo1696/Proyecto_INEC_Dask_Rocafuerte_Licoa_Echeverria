@@ -1,0 +1,14 @@
+{
+  "version": "Pandas secuencial",
+  "repeticion": 1,
+  "registros_procesados": 5379828,
+  "tiempo_segundos": 87.630245,
+  "memoria_inicial_mb": 280.0,
+  "memoria_pico_mb": 2354.38,
+  "memoria_incremental_mb": 2074.38,
+  "grupos_sinteticos": 18738,
+  "k_minimo": 1,
+  "k_mediana": 53.0,
+  "grupos_k_menor_50": 8997,
+  "reingresos_30d": 1563727
+}

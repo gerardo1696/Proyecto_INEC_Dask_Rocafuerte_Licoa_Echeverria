@@ -1,0 +1,3 @@
+﻿clave,version,estrategia,workers,repeticion,tiempo_segundos,memoria_workers_pico_total_mb,memoria_worker_pico_mb,spill_memoria_pico_mb,spill_disco_pico_mb,particiones,particion_media_filas,particion_maxima_filas,particion_minima_filas,razon_skew,estado,reporte_html
+directa_2w_r1,Dask,directa,2,1,95.386672,1935.57,1376.12,0.0,0.0,8,672478.5,1957280,67486,2.9105,CORRECTO,/content/drive/MyDrive/Proyecto_INEC_Paralela/resultados/reportes_dask/reporte_directa_2w_r1.html
+salt_2w_r1,Dask,salt,2,1,89.540606,2152.07,1098.98,0.0,0.0,8,672478.5,856399,504863,1.2735,CORRECTO,/content/drive/MyDrive/Proyecto_INEC_Paralela/resultados/reportes_dask/reporte_salt_2w_r1.html
