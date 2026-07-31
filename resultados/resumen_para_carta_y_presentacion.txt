@@ -1,0 +1,37 @@
+PROYECTO INTEGRADOR - RESULTADOS REALES
+
+Integrantes:
+- Gerardo Rocafuerte
+- Jull Licoa
+- Marcos Echeverría
+
+Años procesados: 2020-2024
+Registros preparados: 5,379,828
+
+Pandas:
+- Tiempo: 87.630245 segundos
+- Memoria pico: 2354.38 MB
+
+Mejor configuración Dask:
+- Configuración: 2 workers
+- Tiempo: 89.540606 segundos
+- Speedup: 0.978665
+- Eficiencia: 0.489332
+- Spill-to-disk: 0.00 MB
+- Fracción secuencial Amdahl: 1.000000
+
+Validación:
+- Coincidencia Pandas-Dask: 100 %
+- Filas agregadas comparadas: 125
+- Diferencias: 0
+
+K-anonimato:
+- K mínimo original: 1
+- Grupos con K < 50: 8,997
+- Registros suprimidos: 170,246
+- Porcentaje conservado con K >= 50: 96.8355 %
+
+Data Skew:
+        clave version estrategia  workers  repeticion  tiempo_segundos  memoria_workers_pico_total_mb  memoria_worker_pico_mb  spill_memoria_pico_mb  spill_disco_pico_mb  particiones  particion_media_filas  particion_maxima_filas  particion_minima_filas  razon_skew   estado                                                                                      reporte_html
+directa_2w_r1    Dask    directa        2           1        95.386672                        1935.57                 1376.12                    0.0                  0.0            8               672478.5                 1957280                   67486      2.9105 CORRECTO /content/drive/MyDrive/Proyecto_INEC_Paralela/resultados/reportes_dask/reporte_directa_2w_r1.html
+   salt_2w_r1    Dask       salt        2           1        89.540606                        2152.07                 1098.98                    0.0                  0.0            8               672478.5                  856399                  504863      1.2735 CORRECTO    /content/drive/MyDrive/Proyecto_INEC_Paralela/resultados/reportes_dask/reporte_salt_2w_r1.html
